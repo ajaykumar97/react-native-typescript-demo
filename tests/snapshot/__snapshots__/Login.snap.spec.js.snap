@@ -36,7 +36,7 @@ exports[`Login screen renders Login correctly 1`] = `
         Object {
           "color": "#FFFFFF",
           "fontFamily": "Arial",
-          "fontSize": 60,
+          "fontSize": 28,
         }
       }
     />
@@ -45,7 +45,7 @@ exports[`Login screen renders Login correctly 1`] = `
         Object {
           "color": "#FFFFFF",
           "fontFamily": "Arial",
-          "fontSize": 34.285714285714285,
+          "fontSize": 16,
         }
       }
     />
@@ -54,7 +54,7 @@ exports[`Login screen renders Login correctly 1`] = `
     style={
       Object {
         "flex": 0.65,
-        "paddingHorizontal": 42.857142857142854,
+        "paddingHorizontal": 20,
       }
     }
   >
@@ -75,7 +75,7 @@ exports[`Login screen renders Login correctly 1`] = `
             Object {
               "color": "#F5F5F5",
               "fontFamily": "Arial",
-              "fontSize": 25.714285714285715,
+              "fontSize": 12,
             },
             undefined,
           ]
@@ -92,15 +92,15 @@ exports[`Login screen renders Login correctly 1`] = `
         style={
           Array [
             Object {
-              "borderBottomWidth": 1.0714285714285714,
+              "borderBottomWidth": 0.5,
               "borderColor": "#BBBBBB",
               "color": "#FFFFFF",
               "fontFamily": "Arial",
-              "fontSize": 30,
-              "paddingHorizontal": 10.714285714285714,
+              "fontSize": 14,
+              "paddingHorizontal": 5,
             },
             Object {
-              "height": 85.71428571428571,
+              "height": 40,
             },
             undefined,
           ]
@@ -126,7 +126,7 @@ exports[`Login screen renders Login correctly 1`] = `
             Object {
               "color": "#F5F5F5",
               "fontFamily": "Arial",
-              "fontSize": 25.714285714285715,
+              "fontSize": 12,
             },
             undefined,
           ]
@@ -140,15 +140,15 @@ exports[`Login screen renders Login correctly 1`] = `
         style={
           Array [
             Object {
-              "borderBottomWidth": 1.0714285714285714,
+              "borderBottomWidth": 0.5,
               "borderColor": "#BBBBBB",
               "color": "#FFFFFF",
               "fontFamily": "Arial",
-              "fontSize": 30,
-              "paddingHorizontal": 10.714285714285714,
+              "fontSize": 14,
+              "paddingHorizontal": 5,
             },
             Object {
-              "height": 85.71428571428571,
+              "height": 40,
             },
             undefined,
           ]
@@ -164,9 +164,9 @@ exports[`Login screen renders Login correctly 1`] = `
           "alignSelf": "flex-end",
           "color": "#FFFFFF",
           "fontFamily": "Arial",
-          "fontSize": 30,
-          "marginTop": 10.714285714285714,
-          "paddingVertical": 21.428571428571427,
+          "fontSize": 14,
+          "marginTop": 5,
+          "paddingVertical": 10,
         }
       }
     />
@@ -187,15 +187,15 @@ exports[`Login screen renders Login correctly 1`] = `
         Array [
           Object {
             "alignItems": "center",
-            "borderRadius": 4.285714285714286,
+            "borderRadius": 2,
             "justifyContent": "center",
           },
           Object {
             "backgroundColor": "#FFFFFF",
             "borderColor": "#FFFFFF",
-            "borderRadius": 4.285714285714286,
+            "borderRadius": 2,
             "borderWidth": undefined,
-            "height": 96.42857142857143,
+            "height": 45,
             "marginBottom": 0,
             "marginHorizontal": 0,
             "marginTop": 20,
@@ -209,7 +209,7 @@ exports[`Login screen renders Login correctly 1`] = `
           Array [
             Object {
               "fontFamily": "Arial",
-              "fontSize": 38.57142857142857,
+              "fontSize": 18,
               "textAlign": "center",
             },
             Object {
@@ -224,7 +224,7 @@ exports[`Login screen renders Login correctly 1`] = `
         Object {
           "flexDirection": "row",
           "justifyContent": "center",
-          "paddingVertical": 32.14285714285714,
+          "paddingVertical": 15,
         }
       }
     >
@@ -233,7 +233,7 @@ exports[`Login screen renders Login correctly 1`] = `
           Object {
             "color": "#FFFFFF",
             "fontFamily": "Arial",
-            "fontSize": 30,
+            "fontSize": 14,
           }
         }
       />
@@ -243,8 +243,8 @@ exports[`Login screen renders Login correctly 1`] = `
           Object {
             "color": "#FFFFFF",
             "fontFamily": "Arial",
-            "fontSize": 30,
-            "marginLeft": 10.714285714285714,
+            "fontSize": 14,
+            "marginLeft": 5,
             "textDecorationLine": "underline",
           }
         }

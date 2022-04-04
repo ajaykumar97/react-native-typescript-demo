@@ -1,8 +1,11 @@
 import {Platform} from 'react-native';
 
-import icUsers from './icons/icUsers.png';
+interface fonts {
+  regular: string;
+  semiBold: string;
+}
 
-const fonts = Platform.select({
+const fonts: fonts | undefined = Platform.select({
   ios: {
     regular: 'Arial',
     semiBold: 'Arial',
@@ -17,4 +20,4 @@ const icons = {
   icBackArrowWhite: require('./icons/icBackArrowWhite.png'),
 };
 
-export {icUsers, fonts, icons};
+export {fonts, icons};

@@ -4,7 +4,13 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import {colors} from '../../utilities/constants';
 import styles from './styles';
 
-export const Wrapper = ({
+interface IWrapper {
+  children: React.ReactNode;
+  wrapperStyle?: object;
+  wrapperBackgroundColor?: string;
+}
+
+export const Wrapper: React.FC<IWrapper> = ({
   children,
   wrapperStyle,
   wrapperBackgroundColor = colors.blue1,

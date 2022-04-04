@@ -1,11 +1,11 @@
 import React, {useState, useRef, useCallback} from 'react';
-import {Text, View} from 'react-native';
+import {Text, View, TextInput} from 'react-native';
 import {scale} from 'react-native-size-matters';
 import Config from 'react-native-config';
 import {useDispatch} from 'react-redux';
 
 import {fonts} from '../../../assets';
-import {TextInputWithLabel, Button, Wrapper} from '../../../commonComponents';
+import {TextInputWithLabel, Button, Wrapper} from '../../../commonComponents/';
 import {colors, screenNames, regex} from '../../../utilities/constants';
 import {navigate} from '../../../utilities/navigationService';
 import {showErrorMessage} from '../../../utilities/helperFunctions';
@@ -18,7 +18,7 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const dispatch = useDispatch();
 
-  const passwordRef = useRef();
+  const passwordRef = useRef<TextInput>(null!);
 
   const onEmailSubmit = () => passwordRef.current.focus();
   const onSignupPress = () => navigate(screenNames.Signup);
@@ -48,7 +48,7 @@ const Login = () => {
         <Text
           style={{
             color: colors.white1,
-            fontFamily: fonts.regular,
+            fontFamily: fonts?.regular,
             fontSize: scale(28),
           }}>
           {strings.template}
@@ -57,7 +57,7 @@ const Login = () => {
         <Text
           style={{
             color: colors.white1,
-            fontFamily: fonts.regular,
+            fontFamily: fonts?.regular,
             fontSize: scale(16),
           }}>
           {strings.formatString(strings.appEnvironment, Config.ENV_TYPE)}
@@ -98,7 +98,7 @@ const Login = () => {
           <Text
             style={{
               fontSize: scale(14),
-              fontFamily: fonts.regular,
+              fontFamily: fonts?.regular,
               color: colors.white1,
             }}>
             {strings.dontHaveAnAccount}

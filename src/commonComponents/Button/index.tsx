@@ -5,7 +5,20 @@ import {scale} from 'react-native-size-matters';
 import {colors} from '../../utilities/constants';
 import styles from './styles';
 
-export const Button = ({
+interface Props {
+  height?: number;
+  onPress?: ((e: React.SyntheticEvent) => void) | undefined;
+  label?: string;
+  bgColor?: string;
+  labelColor?: string;
+  containerStyle?: object;
+  marginTop?: number;
+  marginBottom?: number;
+  marginHorizontal?: number;
+  transparent?: boolean;
+  borderRadius?: number;
+}
+export const Button: React.FC<Props> = ({
   height = scale(45),
   onPress,
   label,
